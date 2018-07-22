@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class ScheduleLayout {
@@ -19,7 +20,6 @@ public class ScheduleLayout {
     private JPanel D12;
     private JPanel jPanelSchedul;
     private JScrollPane spM8;
-    private JPanel zeitslot;
     private JList listM8;
     private JScrollPane spD8;
     private JList listD8;
@@ -72,7 +72,20 @@ public class ScheduleLayout {
     private JList listF12;
     private JList listF10;
     private JList listF8;
-    private JButton importButton;
+    private JButton überprüfenButton;
+    private JList list1;
+    private JPanel acht;
+    private JPanel zehn;
+    private JPanel zwoelf;
+    private JPanel vierzehn;
+    private JPanel sechzehn;
+    private JPanel achtzehn;
+    private JPanel uhrzeit;
+    private JList list2;
+    private JList list3;
+    private JList list4;
+    private JList list5;
+    private JList list6;
 
 
     DefaultListModel listModeM8 = new DefaultListModel();
@@ -113,34 +126,39 @@ public class ScheduleLayout {
     public ScheduleLayout() {
         lh = new ListTransferHandler();
 
-        importButton.addActionListener(new ActionListener() {
+
+        listD8.addKeyListener(new KeyAdapter() {
             @Override
-            public void actionPerformed(ActionEvent e) {
-            listD8.setOpaque(false);
-            listD8.setBackground(Color.RED);
+            public void keyTyped(KeyEvent e) {
+                super.keyTyped(e);
+                listF16.setOpaque(false);
+                listF16.setBackground(Color.RED);
             }
         });
+
+
+
     }
 
 
-    public void initialLists(){
+    public void initialLists() {
 
-        listModeM8.addElement("OMI");
-        listModeM8.addElement("ESOP");
-        listModeM8.addElement("ALGODAT");
-        listModeM8.addElement("SYSSEC");
+        /*listModeM8.addElement("OMI");
 
-        listModeD8.addElement("SE 2");
-        listModeD8.addElement("SE 1");
-        listModeD8.addElement("WIWI Info");
+        listModeM16.addElement(new LVLeiter("Hans", 777).LVLeitertoString());
 
 
+        listModeD8.addElement("WIWI Info");*/
 
+        LVLeiter lvLeiter = new LVLeiter("Schartner", 33);
+        Lehrveranstaltung lehrveranstaltung = new Lehrveranstaltung(620004, Lehrveranstaltung.Typ.VK, "Syssec", 3, lvLeiter, Lehrveranstaltung.Slot.F8);
+
+        listModeF8.addElement(lehrveranstaltung.LVtoString());
 
         /*
         Iterieren über jede jList
          */
-        for (JList jList: listJlisten
+        for (JList jList : listJlisten
                 ) {
             jList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
             jList.setDragEnabled(true);
@@ -150,13 +168,107 @@ public class ScheduleLayout {
         }
 
 
-
-
-
-
     }
 
+    public void insertLehrveranstaltungen(List<Lehrveranstaltung> lehrveranstaltungList) {
+        Lehrveranstaltung.Slot slot;
+        for (Lehrveranstaltung temp : lehrveranstaltungList
+                ) {
+            slot = temp.slot;
 
+            switch (slot) {
+                case M8:
+                    listModeM8.addElement(temp.LVtoString());
+                    break;
+                case M10:
+                    listModeM10.addElement(temp.LVtoString());
+                    break;
+                case M12:
+                    listModeM12.addElement(temp.LVtoString());
+                    break;
+                case M14:
+                    ;listModeM14.addElement(temp.LVtoString());
+                    break;
+                case M16:
+                    listModeM16.addElement(temp.LVtoString());
+                    break;
+                case M18:
+                    listModeM18.addElement(temp.LVtoString());
+                    break;
+                case D8:
+                    listModeD8.addElement(temp.LVtoString());
+                    break;
+                case D10:
+                    listModeD10.addElement(temp.LVtoString());
+                    break;
+                case D12:
+                    listModeD12.addElement(temp.LVtoString());
+                    break;
+                case D14:
+                    listModeD14.addElement(temp.LVtoString());
+                    break;
+                case D16:
+                    listModeD16.addElement(temp.LVtoString());
+                    break;
+                case D18:
+                    listModeD18.addElement(temp.LVtoString());
+                    break;
+                case MI8:
+                    listModeMI8.addElement(temp.LVtoString());
+                    break;
+                case MI10:
+                    listModeMI10.addElement(temp.LVtoString());
+                    break;
+                case MI12:
+                    listModeMI12.addElement(temp.LVtoString());
+                    break;
+                case MI14:
+                    listModeMI14.addElement(temp.LVtoString());
+                    break;
+                case MI16:
+                    listModeMI16.addElement(temp.LVtoString());
+                    break;
+                case MI18:
+                    listModeMI18.addElement(temp.LVtoString());
+                    break;
+                case DO8:
+                    listModeDO8.addElement(temp.LVtoString());
+                    break;
+                case DO10:
+                    listModeDO10.addElement(temp.LVtoString());
+                    break;
+                case DO12:
+                    listModeDO12.addElement(temp.LVtoString());
+                    break;
+                case DO14:
+                    listModeDO14.addElement(temp.LVtoString());
+                    break;
+                case DO16:
+                    listModeDO16.addElement(temp.LVtoString());
+                    break;
+                case DO18:
+                    listModeDO18.addElement(temp.LVtoString());
+                    break;
+                case F8:
+                    listModeF8.addElement(temp.LVtoString());
+                    break;
+                case F10:
+                    listModeF10.addElement(temp.LVtoString());
+                    break;
+                case F12:
+                    listModeF12.addElement(temp.LVtoString());
+                    break;
+                case F14: listModeF14.addElement(temp.LVtoString());
+                    break;
+                case F16:
+                    listModeF16.addElement(temp.LVtoString());
+                    break;
+                case F18:
+                    listModeF18.addElement(temp.LVtoString());
+                    break;
+            }
+        }
+    }
 
     public static JMenuBar createMenuBar() {
         JMenuItem menuItem = null;
@@ -169,7 +281,7 @@ public class ScheduleLayout {
         mainMenu.add(menuItem);
 
         menuItem = new JMenuItem("Copy");
-        menuItem.setActionCommand((String)TransferHandler.getCopyAction().
+        menuItem.setActionCommand((String) TransferHandler.getCopyAction().
                 getValue(Action.NAME));
         menuItem.addActionListener(actionListener);
         menuItem.setAccelerator(
@@ -177,7 +289,6 @@ public class ScheduleLayout {
         menuItem.setMnemonic(KeyEvent.VK_C);
         mainMenu.add(menuItem);
         menuBar.add(mainMenu);
-
 
 
         JMenu secondMenu = new JMenu("Neu");
@@ -196,7 +307,7 @@ public class ScheduleLayout {
 
         return menuBar;
     }
- //sadasd dsa
+
     /*
     Für die Actionen Copy, Paste, Cut
      */
@@ -210,7 +321,7 @@ public class ScheduleLayout {
                 TransferHandler.getPasteAction());
     }
 
-    public void stickJListtogether(){
+    public void stickJListtogether() {
         listJlisten.add(listM8);
         listJlisten.add(listM10);
         listJlisten.add(listM12);
@@ -243,7 +354,7 @@ public class ScheduleLayout {
         listJlisten.add(listF18);
     }
 
-    public void setModels4All(){
+    public void setModels4All() {
         listM8.setModel(listModeM8);
         listM10.setModel(listModeM10);
         listM12.setModel(listModeM12);
@@ -274,12 +385,6 @@ public class ScheduleLayout {
         listF14.setModel(listModeF14);
         listF16.setModel(listModeF16);
         listF18.setModel(listModeF18);
-
-
-
-
-
-
     }
 
     private static void createAndShowGUI(javax.swing.JFrame frame, ScheduleLayout scheduleLayout) {
@@ -293,9 +398,16 @@ public class ScheduleLayout {
     MAIN Methode
      */
     public static void main(String[] args) {
+        //XML inputRead
+        ManageXML manageXML = new ManageXML();
+        List<LVLeiter> lvLeiterList = manageXML.getXMLLvLeiter();
+        List<Lehrveranstaltung> lehrveranstaltungList = manageXML.getXMLLehrveranstaltungen();
+
+
         //Frame start
         JFrame frame = new JFrame("Informatik Stundenplan");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setExtendedState(java.awt.Frame.MAXIMIZED_BOTH);
         frame.setJMenuBar(createMenuBar());
 
         //Schedule Start and Initial List Elements
@@ -304,6 +416,8 @@ public class ScheduleLayout {
         //Zusammenfügen der Jlists in Arrayliste
         scheduleLayout.stickJListtogether();
         scheduleLayout.initialLists();
+        scheduleLayout.insertLehrveranstaltungen(lehrveranstaltungList);
+
         //setModels
         scheduleLayout.setModels4All();
 

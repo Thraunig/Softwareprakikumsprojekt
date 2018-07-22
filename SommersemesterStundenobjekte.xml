@@ -2,8 +2,8 @@
 <LVSAMMLUNG>
   <LV>
     <NUMMER>623827</NUMMER>
-    <TYP>CT in Software Engineering</TYP>
-    <Name></Name>
+    <TYP>CT</TYP>
+    <Name>CT in Software Engineering</Name>
     <SEMESTER></SEMESTER>
     <LEITERID>50</LEITERID>
     <LEITERNAME>Khan</LEITERNAME>
@@ -136,7 +136,7 @@
     <SLOT>M12</SLOT>
   </LV>
   <LV>
-    <NUMMER>620200 </NUMMER>
+    <NUMMER>620200</NUMMER>
     <NUMMER2>620220</NUMMER2>
     <TYP>VO</TYP>
     <Name>ESOP II</Name>
@@ -156,9 +156,9 @@
   </LV>
   <LV>
     <NUMMER>623913</NUMMER>
-    <TYP> </TYP>
+    <TYP></TYP>
     <Name>Fundamental Topics II in DMS</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>4</LEITERID>
     <LEITERNAME>Timmerer</LEITERNAME>
     <SLOT>M14</SLOT>
@@ -167,7 +167,7 @@
     <NUMMER>622980</NUMMER>
     <TYP>SE</TYP>
     <Name>Scientific Writing</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>14</LEITERID>
     <LEITERNAME>Pinzger</LEITERNAME>
     <SLOT>M14</SLOT>
@@ -176,7 +176,7 @@
     <NUMMER>621171</NUMMER>
     <TYP>UE</TYP>
     <Name>Verteilte Systeme</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>13</LEITERID>
     <LEITERNAME>Münzer</LEITERNAME>
     <SLOT>M14</SLOT>
@@ -185,7 +185,7 @@
     <NUMMER>620100</NUMMER>
     <TYP>VO</TYP>
     <Name>OMI</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>5</LEITERID>
     <LEITERNAME>Kop</LEITERNAME>
     <SLOT>M14</SLOT>
@@ -194,7 +194,7 @@
     <NUMMER>510612</NUMMER>
     <TYP>VK</TYP>
     <Name>Morphologie</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>15</LEITERID>
     <LEITERNAME>Winkler</LEITERNAME>
     <SLOT>M14</SLOT>
@@ -203,7 +203,7 @@
     <NUMMER>621451</NUMMER>
     <TYP>PR</TYP>
     <Name>Softwarepraktikum</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>16</LEITERID>
     <LEITERNAME>Fliedl</LEITERNAME>
     <SLOT>M14</SLOT>
@@ -212,16 +212,22 @@
     <NUMMER>624006</NUMMER>
     <TYP>PV</TYP>
     <Name>Privatisimum</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>17</LEITERID>
     <LEITERNAME>Mayr</LEITERNAME>
     <SLOT>M16</SLOT>
   </LV>
   <LV>
-    <NUMMER>620007/08/12/13/14</NUMMER>
+    <NUMMER>620007</NUMMER>
+    <NUMMER>620008</NUMMER>
+    <NUMMER>620012</NUMMER>
+    <NUMMER>620013</NUMMER>
+    <NUMMER>620014</NUMMER>
+
+
     <TYP>PV</TYP>
     <Name>Privatisimum</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>18+19+20+10+4</LEITERID>
     <LEITERNAME>Böszermenyi, Hellwagner, Schöffmann, Lux, Timmerer</LEITERNAME>
     <SLOT>M16</SLOT>
@@ -230,7 +236,7 @@
     <NUMMER>624004</NUMMER>
     <TYP>PV</TYP>
     <Name>Privatisimum</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>21</LEITERID>
     <LEITERNAME>Friedrich</LEITERNAME>
     <SLOT>M16</SLOT>
@@ -239,7 +245,7 @@
     <NUMMER>621512</NUMMER>
     <TYP>UE</TYP>
     <Name>Datenbanktechnlogien</Name>
-    <SEMESTER>2+4</SEMESTER>
+    <SEMESTER>4</SEMESTER>
     <LEITERID>22</LEITERID>
     <LEITERNAME>Franceschetti</LEITERNAME>
     <SLOT>M16</SLOT>
@@ -257,7 +263,7 @@
     <NUMMER>624016</NUMMER>
     <TYP>PV</TYP>
     <Name>Privatisimum</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>16</LEITERID>
     <LEITERNAME>Fliedl</LEITERNAME>
     <SLOT>M16</SLOT>
@@ -266,16 +272,16 @@
     <NUMMER>624018</NUMMER>
     <TYP>PV</TYP>
     <Name>Privatisimum</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>23</LEITERID>
     <LEITERNAME>Jannach</LEITERNAME>
     <SLOT>M16</SLOT>
   </LV>
   <LV>
     <NUMMER>624502</NUMMER>
-    <TYP> </TYP>
+    <TYP></TYP>
     <Name>Fachdidaktik Anwendungssoftware 2</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>24</LEITERID>
     <LEITERNAME>Pasterk</LEITERNAME>
     <SLOT>M16</SLOT>
@@ -284,7 +290,7 @@
     <NUMMER>625201</NUMMER>
     <TYP>KU</TYP>
     <Name>Informatik f. WIWI</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>25</LEITERID>
     <LEITERNAME>Dabringer</LEITERNAME>
     <SLOT>M18</SLOT>
@@ -293,16 +299,16 @@
     <NUMMER>620106</NUMMER>
     <TYP>TU</TYP>
     <Name>OMI</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>-1</LEITERID>
     <LEITERNAME>N.N.</LEITERNAME>
     <SLOT>M18</SLOT>
   </LV>
   <LV>
-    <NUMMER>624.750</NUMMER>
+    <NUMMER>624750</NUMMER>
     <TYP>VO</TYP>
     <Name>Neue Technologien</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>26</LEITERID>
     <LEITERNAME>Micheuz</LEITERNAME>
     <SLOT>M18</SLOT>
@@ -311,34 +317,34 @@
     <NUMMER>620251</NUMMER>
     <TYP>UE</TYP>
     <Name>AlgoDat</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>27</LEITERID>
     <LEITERNAME>Wigoutschnig</LEITERNAME>
     <SLOT>D8</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
-    <TYP>0</TYP>
+    <TYP></TYP>
     <Name>Institutsbelegung</Name>
-    <SEMESTER> </SEMESTER>
-    <LEITERID> </LEITERID>
-    <LEITERNAME> </LEITERNAME>
+    <SEMESTER></SEMESTER>
+    <LEITERID></LEITERID>
+    <LEITERNAME></LEITERNAME>
     <SLOT>D8</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
-    <TYP>0</TYP>
+    <TYP></TYP>
     <Name>Reserviert f. ITEX JF (Tausch m. ISYS)</Name>
-    <SEMESTER> </SEMESTER>
-    <LEITERID> </LEITERID>
-    <LEITERNAME> </LEITERNAME>
+    <SEMESTER></SEMESTER>
+    <LEITERID></LEITERID>
+    <LEITERNAME></LEITERNAME>
     <SLOT>D8</SLOT>
   </LV>
   <LV>
     <NUMMER>625203</NUMMER>
     <TYP>KU</TYP>
     <Name>Informatik f. WIWI</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>7</LEITERID>
     <LEITERNAME>Morak</LEITERNAME>
     <SLOT>D8</SLOT>
@@ -347,7 +353,7 @@
     <NUMMER>311140</NUMMER>
     <TYP>VO</TYP>
     <Name>Lin. Algebra für Informatiker und Informationstechnik</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>28</LEITERID>
     <LEITERNAME>Heuberger</LEITERNAME>
     <SLOT>D8</SLOT>
@@ -356,7 +362,7 @@
     <NUMMER>620103</NUMMER>
     <TYP>UE</TYP>
     <Name>OMI</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>29</LEITERID>
     <LEITERNAME>Fercher</LEITERNAME>
     <SLOT>D10</SLOT>
@@ -365,7 +371,7 @@
     <NUMMER>621251</NUMMER>
     <TYP>UE</TYP>
     <Name>SE 2</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>30</LEITERID>
     <LEITERNAME>Macho</LEITERNAME>
     <SLOT>D10</SLOT>
@@ -374,7 +380,7 @@
     <NUMMER>623915</NUMMER>
     <TYP>VC</TYP>
     <Name>CT in DMS</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>20</LEITERID>
     <LEITERNAME>Schöffmann</LEITERNAME>
     <SLOT>D10</SLOT>
@@ -383,7 +389,7 @@
     <NUMMER>621150</NUMMER>
     <TYP>VO</TYP>
     <Name>Systemsicherheit</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>31+32</LEITERID>
     <LEITERNAME>Rass+Schartner</LEITERNAME>
     <SLOT>D10</SLOT>
@@ -392,7 +398,7 @@
     <NUMMER>311100</NUMMER>
     <TYP>VO</TYP>
     <Name>Analysis für Informatik</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>33</LEITERID>
     <LEITERNAME>Garab</LEITERNAME>
     <SLOT>D10</SLOT>
@@ -401,7 +407,7 @@
     <NUMMER>311180</NUMMER>
     <TYP>VU</TYP>
     <Name>Stochastik 2</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>34</LEITERID>
     <LEITERNAME>Pilz</LEITERNAME>
     <SLOT>D10</SLOT>
@@ -410,16 +416,17 @@
     <NUMMER>622753</NUMMER>
     <TYP>VC</TYP>
     <Name>Basismechanismen der Kryptologie</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>31+27</LEITERID>
     <LEITERNAME>Rass+Wigoutschnigg</LEITERNAME>
     <SLOT>D12</SLOT>
   </LV>
   <LV>
-    <NUMMER>620001+620021</NUMMER>
+    <NUMMER>620001</NUMMER>
+    <NUMMER>620021</NUMMER>
     <TYP>UE</TYP>
     <Name>Einf. Info</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>10</LEITERID>
     <LEITERNAME>Lux</LEITERNAME>
     <SLOT>D12</SLOT>
@@ -428,7 +435,7 @@
     <NUMMER>622959</NUMMER>
     <TYP>PR</TYP>
     <Name>Projektübergreifende Aufarbeitung</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>19</LEITERID>
     <LEITERNAME>Hellwagner</LEITERNAME>
     <SLOT>D12</SLOT>
@@ -437,7 +444,7 @@
     <NUMMER>621055</NUMMER>
     <TYP>VK</TYP>
     <Name>Knowledge Engineering für IM 1</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>35</LEITERID>
     <LEITERNAME>Teppan</LEITERNAME>
     <SLOT>D12</SLOT>
@@ -446,25 +453,26 @@
     <NUMMER>620101</NUMMER>
     <TYP>UE</TYP>
     <Name>OMI</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>36</LEITERID>
     <LEITERNAME>Primus</LEITERNAME>
     <SLOT>D12</SLOT>
   </LV>
   <LV>
-    <NUMMER>624005+623300</NUMMER>
-    <TYP>PV+SE</TYP>
+    <NUMMER>624005</NUMMER>
+    <NUMMER>623300</NUMMER>
+    <TYP>PVSE</TYP>
     <Name>SE aus Systemsicherheit</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>31+32</LEITERID>
     <LEITERNAME>Rass+Schartner</LEITERNAME>
     <SLOT>D14</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
-    <TYP> </TYP>
+    <TYP></TYP>
     <Name>Reserviert für ITEC</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID></LEITERID>
     <LEITERNAME></LEITERNAME>
     <SLOT>D14</SLOT>
@@ -473,7 +481,7 @@
     <NUMMER>622000</NUMMER>
     <TYP>SE</TYP>
     <Name>SE aus Angewandter Informatik</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>13</LEITERID>
     <LEITERNAME>Pinzger</LEITERNAME>
     <SLOT>D14</SLOT>
@@ -482,7 +490,7 @@
     <NUMMER>620050</NUMMER>
     <TYP>VK</TYP>
     <Name>Text-based Ontology Engineering</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>16</LEITERID>
     <LEITERNAME>Fliedl</LEITERNAME>
     <SLOT>D14</SLOT>
@@ -491,7 +499,7 @@
     <NUMMER>621056</NUMMER>
     <TYP>VK</TYP>
     <Name>Knowlege Engineering für IM 2</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>35</LEITERID>
     <LEITERNAME>Teppan</LEITERNAME>
     <SLOT>D14</SLOT>
@@ -500,7 +508,7 @@
     <NUMMER>621310</NUMMER>
     <TYP>VK</TYP>
     <Name>Logik</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>11</LEITERID>
     <LEITERNAME>Rodler</LEITERNAME>
     <SLOT>D16</SLOT>
@@ -509,7 +517,7 @@
     <NUMMER>622950</NUMMER>
     <TYP>VK</TYP>
     <Name>Wissenschafttheor. Reflexion</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>18</LEITERID>
     <LEITERNAME>Böszörmenyi</LEITERNAME>
     <SLOT>D16</SLOT>
@@ -518,7 +526,7 @@
     <NUMMER>623413</NUMMER>
     <TYP>CT</TYP>
     <Name>CT in Interactive Systeme: Mobile User Engineering</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>47</LEITERID>
     <LEITERNAME>Leitner</LEITERNAME>
     <SLOT>D16</SLOT>
@@ -527,7 +535,7 @@
     <NUMMER>621170</NUMMER>
     <TYP>VO</TYP>
     <Name>Verteilte Systeme</Name>
-    <SEMESTER>2+4</SEMESTER>
+    <SEMESTER>4</SEMESTER>
     <LEITERID>37</LEITERID>
     <LEITERNAME>Prodan</LEITERNAME>
     <SLOT>D16</SLOT>
@@ -554,7 +562,7 @@
     <NUMMER>624017</NUMMER>
     <TYP>PV</TYP>
     <Name>Privatisimum</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>5</LEITERID>
     <LEITERNAME>Kop</LEITERNAME>
     <SLOT>D16</SLOT>
@@ -581,8 +589,8 @@
     <NUMMER>0</NUMMER>
     <TYP></TYP>
     <Name>Institutsbelegung</Name>
-    <SEMESTER> </SEMESTER>
-    <LEITERID> </LEITERID>
+    <SEMESTER></SEMESTER>
+    <LEITERID></LEITERID>
     <LEITERNAME></LEITERNAME>
     <SLOT>D18</SLOT>
   </LV>
@@ -590,7 +598,7 @@
     <NUMMER>624510</NUMMER>
     <TYP>VC</TYP>
     <Name>Programmieren in C</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>40</LEITERID>
     <LEITERNAME>Antonitsch</LEITERNAME>
     <SLOT>D18</SLOT>
@@ -602,16 +610,16 @@
     <SEMESTER>6</SEMESTER>
     <LEITERID>27</LEITERID>
     <LEITERNAME>Wigoutschnigg</LEITERNAME>
-    <SLOT>M8</SLOT>
+    <SLOT>MI8</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
-    <TYP> </TYP>
+    <TYP></TYP>
     <Name>Teambesprechung ITEC</Name>
     <SEMESTER></SEMESTER>
     <LEITERID></LEITERID>
     <LEITERNAME></LEITERNAME>
-    <SLOT>M8</SLOT>
+    <SLOT>MI8</SLOT>
   </LV>
   <LV>
     <NUMMER>620054</NUMMER>
@@ -620,7 +628,7 @@
     <SEMESTER>2</SEMESTER>
     <LEITERID>41</LEITERID>
     <LEITERNAME>Ranasinghe</LEITERNAME>
-    <SLOT>M8</SLOT>
+    <SLOT>MI8</SLOT>
   </LV>
   <LV>
     <NUMMER>621250</NUMMER>
@@ -629,88 +637,88 @@
     <SEMESTER>4</SEMESTER>
     <LEITERID>13</LEITERID>
     <LEITERNAME>Pinzger</LEITERNAME>
-    <SLOT>M8</SLOT>
+    <SLOT>MI8</SLOT>
   </LV>
   <LV>
     <NUMMER>607901</NUMMER>
     <TYP>VC</TYP>
     <Name>Team und Führungskompetenzen II</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>42</LEITERID>
     <LEITERNAME>Kellermann</LEITERNAME>
-    <SLOT>M8</SLOT>
+    <SLOT>MI8</SLOT>
   </LV>
   <LV>
     <NUMMER>625604</NUMMER>
-    <TYP> </TYP>
+    <TYP></TYP>
     <Name>IT Management</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>23</LEITERID>
     <LEITERNAME>Jannach</LEITERNAME>
-    <SLOT>M10</SLOT>
+    <SLOT>MI10</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
-    <TYP> </TYP>
+    <TYP></TYP>
     <Name>Institutsbelegung</Name>
-    <SEMESTER> </SEMESTER>
-    <LEITERID> </LEITERID>
+    <SEMESTER></SEMESTER>
+    <LEITERID></LEITERID>
     <LEITERNAME> </LEITERNAME>
-    <SLOT>M10</SLOT>
+    <SLOT>MI10</SLOT>
   </LV>
   <LV>
     <NUMMER>624010</NUMMER>
     <TYP>PV</TYP>
     <Name>Privatisimum</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>13</LEITERID>
     <LEITERNAME>Pinzger</LEITERNAME>
-    <SLOT>M10</SLOT>
+    <SLOT>MI10</SLOT>
   </LV>
   <LV>
     <NUMMER>621400</NUMMER>
     <TYP>VO</TYP>
     <Name>Übersetzerbau</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>18</LEITERID>
     <LEITERNAME>Böszörmenyi</LEITERNAME>
-    <SLOT>M10</SLOT>
+    <SLOT>MI10</SLOT>
   </LV>
   <LV>
     <NUMMER>620250</NUMMER>
     <TYP>VO</TYP>
     <Name>AlgoDat</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>31+27</LEITERID>
     <LEITERNAME>Rass+Wigoutschnigg</LEITERNAME>
-    <SLOT>M10</SLOT>
+    <SLOT>MI10</SLOT>
   </LV>
   <LV>
     <NUMMER>700131</NUMMER>
     <TYP>KS</TYP>
     <Name>Entwurf digitaler Schaltungen</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>43</LEITERID>
     <LEITERNAME>Scherer</LEITERNAME>
-    <SLOT>M10</SLOT>
+    <SLOT>MI10</SLOT>
   </LV>
   <LV>
     <NUMMER>311132</NUMMER>
     <TYP>VO</TYP>
     <Name>Numerik</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>44</LEITERID>
     <LEITERNAME>Nowak</LEITERNAME>
-    <SLOT>M10</SLOT>
+    <SLOT>MI10</SLOT>
   </LV>
   <LV>
     <NUMMER>623613</NUMMER>
     <TYP>VK</TYP>
     <Name>Applied Machine Learning</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>8</LEITERID>
     <LEITERNAME>Schekotihin</LEITERNAME>
-    <SLOT>M12</SLOT>
+    <SLOT>MI12</SLOT>
   </LV>
   <LV>
     <NUMMER>623613</NUMMER>
@@ -719,16 +727,16 @@
     <SEMESTER>2</SEMESTER>
     <LEITERID>48</LEITERID>
     <LEITERNAME>Taschwer</LEITERNAME>
-    <SLOT>M12</SLOT>
+    <SLOT>MI12</SLOT>
   </LV>
   <LV>
     <NUMMER>621511</NUMMER>
     <TYP>UE</TYP>
     <Name>Datenbanktech. </Name>
-    <SEMESTER>2+4</SEMESTER>
+    <SEMESTER>24</SEMESTER>
     <LEITERID>38</LEITERID>
     <LEITERNAME>Köpke</LEITERNAME>
-    <SLOT>M12</SLOT>
+    <SLOT>MI12</SLOT>
   </LV>
   <LV>
     <NUMMER>621152</NUMMER>
@@ -737,7 +745,7 @@
     <SEMESTER>6</SEMESTER>
     <LEITERID>27</LEITERID>
     <LEITERNAME>Wigoutschnigg</LEITERNAME>
-    <SLOT>M12</SLOT>
+    <SLOT>MI12</SLOT>
   </LV>
   <LV>
     <NUMMER>557101</NUMMER>
@@ -746,7 +754,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>46</LEITERID>
     <LEITERNAME>Callaghan</LEITERNAME>
-    <SLOT>M12</SLOT>
+    <SLOT>MI12</SLOT>
   </LV>
   <LV>
     <NUMMER>311132</NUMMER>
@@ -755,7 +763,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>44</LEITERID>
     <LEITERNAME>Nowak</LEITERNAME>
-    <SLOT>M12</SLOT>
+    <SLOT>MI12</SLOT>
   </LV>
   <LV>
     <NUMMER>311133</NUMMER>
@@ -764,7 +772,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>44</LEITERID>
     <LEITERNAME>Nowak</LEITERNAME>
-    <SLOT>M12</SLOT>
+    <SLOT>MI12</SLOT>
   </LV>
   <LV>
     <NUMMER>620252</NUMMER>
@@ -773,16 +781,16 @@
     <SEMESTER>2</SEMESTER>
     <LEITERID>27</LEITERID>
     <LEITERNAME>Wigoutschnigg</LEITERNAME>
-    <SLOT>M14</SLOT>
+    <SLOT>MI14</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
-    <TYP> </TYP>
+    <TYP></TYP>
     <Name>Institutsbelegung</Name>
     <SEMESTER></SEMESTER>
-    <LEITERID> </LEITERID>
-    <LEITERNAME> </LEITERNAME>
-    <SLOT>M14</SLOT>
+    <LEITERID></LEITERID>
+    <LEITERNAME></LEITERNAME>
+    <SLOT>MI14</SLOT>
   </LV>
   <LV>
     <NUMMER>620011</NUMMER>
@@ -791,43 +799,44 @@
     <SEMESTER>2</SEMESTER>
     <LEITERID>-1</LEITERID>
     <LEITERNAME>N.N.</LEITERNAME>
-    <SLOT>M14</SLOT>
+    <SLOT>MI14</SLOT>
   </LV>
   <LV>
     <NUMMER>621510</NUMMER>
     <TYP>VO</TYP>
     <Name>Datenbanktechnol.</Name>
-    <SEMESTER>2+4</SEMESTER>
+    <SEMESTER>4</SEMESTER>
     <LEITERID>2</LEITERID>
     <LEITERNAME>Eder</LEITERNAME>
-    <SLOT>M14</SLOT>
+    <SLOT>MI14</SLOT>
   </LV>
   <LV>
     <NUMMER>510610</NUMMER>
     <TYP>VK</TYP>
     <Name>Textanalyse</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>16+15</LEITERID>
     <LEITERNAME>Fliedl+Winkler</LEITERNAME>
-    <SLOT>M12</SLOT>
+    <SLOT>MI12</SLOT>
   </LV>
   <LV>
-    <NUMMER>620009+620029</NUMMER>
+    <NUMMER>620009</NUMMER>
+    <NUMMER>620029</NUMMER>
     <TYP>UE</TYP>
     <Name>EF i. d. Informatik</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>45</LEITERID>
     <LEITERNAME>Reci</LEITERNAME>
-    <SLOT>M14</SLOT>
+    <SLOT>MI14</SLOT>
   </LV>
   <LV>
     <NUMMER>621315</NUMMER>
     <TYP>VK</TYP>
     <Name>Log. Pogrammierung</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>8</LEITERID>
     <LEITERNAME>Schekotihin</LEITERNAME>
-    <SLOT>M14</SLOT>
+    <SLOT>MI14</SLOT>
   </LV>
   <LV>
     <NUMMER>621252</NUMMER>
@@ -836,7 +845,7 @@
     <SEMESTER>4</SEMESTER>
     <LEITERID>30</LEITERID>
     <LEITERNAME>Macho</LEITERNAME>
-    <SLOT>M16</SLOT>
+    <SLOT>MI16</SLOT>
   </LV>
   <LV>
     <NUMMER>620102</NUMMER>
@@ -845,7 +854,7 @@
     <SEMESTER>2</SEMESTER>
     <LEITERID>29</LEITERID>
     <LEITERNAME>Fercher</LEITERNAME>
-    <SLOT>M16</SLOT>
+    <SLOT>MI16</SLOT>
   </LV>
   <LV>
     <NUMMER>621060</NUMMER>
@@ -854,7 +863,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>8</LEITERID>
     <LEITERNAME>Schekotihin</LEITERNAME>
-    <SLOT>M16</SLOT>
+    <SLOT>MI16</SLOT>
   </LV>
   <LV>
     <NUMMER>623710</NUMMER>
@@ -863,7 +872,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>37</LEITERID>
     <LEITERNAME>Prodan</LEITERNAME>
-    <SLOT>M16</SLOT>
+    <SLOT>MI16</SLOT>
   </LV>
   <LV>
     <NUMMER>510608</NUMMER>
@@ -872,7 +881,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>16+15</LEITERID>
     <LEITERNAME>Fliedl+Winkler</LEITERNAME>
-    <SLOT>M16</SLOT>
+    <SLOT>MI16</SLOT>
   </LV>
   <LV>
     <NUMMER>623935</NUMMER>
@@ -881,34 +890,34 @@
     <SEMESTER></SEMESTER>
     <LEITERID>0</LEITERID>
     <LEITERNAME>N.N.</LEITERNAME>
-    <SLOT>M18</SLOT>
+    <SLOT>MI18</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
-    <TYP> </TYP>
+    <TYP></TYP>
     <Name>Reserviert f. REWI</Name>
     <SEMESTER></SEMESTER>
     <LEITERID></LEITERID>
     <LEITERNAME></LEITERNAME>
-    <SLOT>M18</SLOT>
+    <SLOT>MI18</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
-    <TYP> </TYP>
+    <TYP></TYP>
     <Name>Institutsbelegung</Name>
     <SEMESTER></SEMESTER>
     <LEITERID></LEITERID>
     <LEITERNAME></LEITERNAME>
-    <SLOT>M18</SLOT>
+    <SLOT>MI18</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
-    <TYP> </TYP>
+    <TYP></TYP>
     <Name>LV Süd</Name>
     <SEMESTER></SEMESTER>
     <LEITERID></LEITERID>
     <LEITERNAME></LEITERNAME>
-    <SLOT>D8</SLOT>
+    <SLOT>DO8</SLOT>
   </LV>
   <LV>
     <NUMMER>625602</NUMMER>
@@ -917,7 +926,7 @@
     <SEMESTER>6</SEMESTER>
     <LEITERID>5</LEITERID>
     <LEITERNAME>Kop</LEITERNAME>
-    <SLOT>D8</SLOT>
+    <SLOT>DO8</SLOT>
   </LV>
   <LV>
     <NUMMER>626002</NUMMER>
@@ -927,7 +936,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>19+3+47+10</LEITERID>
     <LEITERNAME>Hellwagner+N.N.+Ahlström+Leitner+Lux</LEITERNAME>
-    <SLOT>D8</SLOT>
+    <SLOT>DO8</SLOT>
   </LV>
   <LV>
     <NUMMER>620203</NUMMER>
@@ -937,7 +946,7 @@
     <SEMESTER>49</SEMESTER>
     <LEITERID>19+3+47+10</LEITERID>
     <LEITERNAME>Pichler</LEITERNAME>
-    <SLOT>D8</SLOT>
+    <SLOT>DO8</SLOT>
   </LV>
   <LV>
     <NUMMER>624500</NUMMER>
@@ -946,7 +955,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>51</LEITERID>
     <LEITERNAME>Bollin</LEITERNAME>
-    <SLOT>D8</SLOT>
+    <SLOT>DO8</SLOT>
   </LV>
   <LV>
     <NUMMER>311184</NUMMER>
@@ -955,7 +964,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>52</LEITERID>
     <LEITERNAME>Spöck</LEITERNAME>
-    <SLOT>D8</SLOT>
+    <SLOT>DO8</SLOT>
   </LV>
   <LV>
     <NUMMER>311140</NUMMER>
@@ -964,7 +973,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>28</LEITERID>
     <LEITERNAME>Heuberger</LEITERNAME>
-    <SLOT>D8</SLOT>
+    <SLOT>DO8</SLOT>
   </LV>
   <LV>
     <NUMMER>620002</NUMMER>
@@ -974,7 +983,7 @@
     <SEMESTER>2</SEMESTER>
     <LEITERID>37</LEITERID>
     <LEITERNAME>Prodan</LEITERNAME>
-    <SLOT>D8</SLOT>
+    <SLOT>DO8</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
@@ -983,7 +992,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID></LEITERID>
     <LEITERNAME></LEITERNAME>
-    <SLOT>D10</SLOT>
+    <SLOT>DO10</SLOT>
   </LV>
   <LV>
     <NUMMER>620053</NUMMER>
@@ -992,7 +1001,7 @@
     <SEMESTER>2</SEMESTER>
     <LEITERID>22</LEITERID>
     <LEITERNAME>Franceschetti</LEITERNAME>
-    <SLOT>D10</SLOT>
+    <SLOT>DO10</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
@@ -1001,7 +1010,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID></LEITERID>
     <LEITERNAME>Franceschetti</LEITERNAME>
-    <SLOT>D10</SLOT>
+    <SLOT>DO10</SLOT>
   </LV>
   <LV>
     <NUMMER>624900</NUMMER>
@@ -1010,7 +1019,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>51</LEITERID>
     <LEITERNAME>Bollin</LEITERNAME>
-    <SLOT>D10</SLOT>
+    <SLOT>DO10</SLOT>
   </LV>
   <LV>
     <NUMMER>621401</NUMMER>
@@ -1019,7 +1028,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>48</LEITERID>
     <LEITERNAME>Taschwer</LEITERNAME>
-    <SLOT>D10</SLOT>
+    <SLOT>DO10</SLOT>
   </LV>
   <LV>
     <NUMMER>620200</NUMMER>
@@ -1029,7 +1038,7 @@
     <SEMESTER>2</SEMESTER>
     <LEITERID>12</LEITERID>
     <LEITERNAME>Hitz</LEITERNAME>
-    <SLOT>D10</SLOT>
+    <SLOT>DO10</SLOT>
   </LV>
   <LV>
     <NUMMER>623700</NUMMER>
@@ -1038,7 +1047,7 @@
     <SEMESTER>2</SEMESTER>
     <LEITERID>19</LEITERID>
     <LEITERNAME>Hellwagner</LEITERNAME>
-    <SLOT>D12</SLOT>
+    <SLOT>DO12</SLOT>
   </LV>
   <LV>
     <NUMMER>621000</NUMMER>
@@ -1047,98 +1056,98 @@
     <SEMESTER>2</SEMESTER>
     <LEITERID>12</LEITERID>
     <LEITERNAME>Hitz</LEITERNAME>
-    <SLOT>D12</SLOT>
+    <SLOT>DO12</SLOT>
   </LV>
   <LV>
     <NUMMER>623102</NUMMER>
     <TYP>VK</TYP>
     <Name>Lingusistische Grundlage des Suchmaschinenmarketings</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>5+16</LEITERID>
     <LEITERNAME>Kop+Fliedl</LEITERNAME>
-    <SLOT>D12</SLOT>
+    <SLOT>DO12</SLOT>
   </LV>
   <LV>
     <NUMMER>621355</NUMMER>
     <TYP></TYP>
     <Name>Interaktive Systeme II</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>47</LEITERID>
     <LEITERNAME>Kop+Fliedl</LEITERNAME>
-    <SLOT>D12</SLOT>
+    <SLOT>DO12</SLOT>
   </LV>
   <LV>
     <NUMMER>311141</NUMMER>
     <TYP>UE</TYP>
     <Name>Lin. Algebra für Informatik und Informationstechnik</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>28</LEITERID>
     <LEITERNAME>Heuberger</LEITERNAME>
-    <SLOT>D12</SLOT>
+    <SLOT>DO12</SLOT>
   </LV>
   <LV>
     <NUMMER>700130</NUMMER>
     <TYP>VO</TYP>
     <Name>Entwurf digitaler Schaltungen</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>53</LEITERID>
     <LEITERNAME>Rinner </LEITERNAME>
-    <SLOT>D12</SLOT>
+    <SLOT>DO12</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
     <TYP></TYP>
     <Name>LV Süd</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID></LEITERID>
     <LEITERNAME></LEITERNAME>
-    <SLOT>D14</SLOT>
+    <SLOT>DO14</SLOT>
   </LV>
   <LV>
     <NUMMER>780213</NUMMER>
     <TYP>VK</TYP>
     <Name>SL in Game Engineering</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>10</LEITERID>
     <LEITERNAME>Lux</LEITERNAME>
-    <SLOT>D14</SLOT>
+    <SLOT>DO14</SLOT>
   </LV>
   <LV>
     <NUMMER>623400</NUMMER>
     <TYP>SE</TYP>
     <Name>SE in Interaktive Systme</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>12+54</LEITERID>
     <LEITERNAME>Hitz+Peshkova</LEITERNAME>
-    <SLOT>D14</SLOT>
+    <SLOT>DO14</SLOT>
   </LV>
   <LV>
     <NUMMER>623083</NUMMER>
     <TYP>VC</TYP>
     <Name>Business Technologies</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>17</LEITERID>
     <LEITERNAME>Mayr</LEITERNAME>
-    <SLOT>D14</SLOT>
+    <SLOT>DO14</SLOT>
   </LV>
   <LV>
     <NUMMER>620000</NUMMER>
     <NUMMER>620020</NUMMER>
     <TYP>VO</TYP>
     <Name>Einf. Info</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID>51</LEITERID>
     <LEITERNAME>Bollin</LEITERNAME>
-    <SLOT>D14</SLOT>
+    <SLOT>DO14</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
     <TYP></TYP>
     <Name>LV-Süd</Name>
-    <SEMESTER> </SEMESTER>
+    <SEMESTER></SEMESTER>
     <LEITERID></LEITERID>
     <LEITERNAME></LEITERNAME>
-    <SLOT>D16</SLOT>
+    <SLOT>DO16</SLOT>
   </LV>
   <LV>
     <NUMMER>621256</NUMMER>
@@ -1147,7 +1156,7 @@
     <SEMESTER>4</SEMESTER>
     <LEITERID>0</LEITERID>
     <LEITERNAME>N.N.</LEITERNAME>
-    <SLOT>D16</SLOT>
+    <SLOT>DO16</SLOT>
   </LV>
   <LV>
     <NUMMER>624001</NUMMER>
@@ -1156,7 +1165,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>12+47+3</LEITERID>
     <LEITERNAME>Hitz+Leitner+Ahlström</LEITERNAME>
-    <SLOT>D16</SLOT>
+    <SLOT>DO16</SLOT>
   </LV>
   <LV>
     <NUMMER>624006</NUMMER>
@@ -1165,7 +1174,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>51</LEITERID>
     <LEITERNAME>Bollin</LEITERNAME>
-    <SLOT>D16</SLOT>
+    <SLOT>DO16</SLOT>
   </LV>
   <LV>
     <NUMMER>311183</NUMMER>
@@ -1174,7 +1183,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>55</LEITERID>
     <LEITERNAME>Gebhardt</LEITERNAME>
-    <SLOT>D16</SLOT>
+    <SLOT>DO16</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
@@ -1183,7 +1192,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID></LEITERID>
     <LEITERNAME></LEITERNAME>
-    <SLOT>D18</SLOT>
+    <SLOT>DO18</SLOT>
   </LV>
   <LV>
     <NUMMER>620109</NUMMER>
@@ -1192,7 +1201,7 @@
     <SEMESTER></SEMESTER>
     <LEITERID>49</LEITERID>
     <LEITERNAME>Pichler</LEITERNAME>
-    <SLOT>D18</SLOT>
+    <SLOT>DO18</SLOT>
   </LV>
   <LV>
     <NUMMER>0</NUMMER>
@@ -1305,4 +1314,258 @@
     <LEITERNAME>Eder</LEITERNAME>
     <SLOT>F14</SLOT>
   </LV>
+  <LEITER>
+    <ID>0</ID>
+    <Name>N.N.</Name>
+  </LEITER>
+  <LEITER>
+    <ID>1</ID>
+    <Name>Moll</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>2</ID>
+    <Name>Eder</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>3</ID>
+    <Name>Ahlström</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>4</ID>
+    <Name>Timmerer</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>5</ID>
+    <Name>Kop</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>6</ID>
+    <Name>Dragi</Name>
+  </LEITER>
+  <LEITER>
+    <ID>7</ID>
+    <Name>Morak</Name>
+  </LEITER>
+  <LEITER>
+    <ID>8</ID>
+    <Name>SChekothin</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>9</ID>
+    <Name>Faber</Name>
+  </LEITER>
+  <LEITER>
+    <ID>10</ID>
+    <Name>Lux</Name>
+  </LEITER>
+  <LEITER>
+    <ID>11</ID>
+    <Name>Rodler</Name>
+  </LEITER>
+  <LEITER>
+    <ID>12</ID>
+    <Name>Hitz</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>13</ID>
+    <Name>Pinzger</Name>
+  </LEITER>
+  <LEITER>
+    <ID>14</ID>
+    <Name>Münzer</Name>
+  </LEITER>
+  <LEITER>
+    <ID>15</ID>
+    <Name>Winkler</Name>
+  </LEITER>
+  <LEITER>
+    <ID>16</ID>
+    <Name>Fliedl</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>17</ID>
+    <Name>Mayr</Name>
+  </LEITER>
+  <LEITER>
+    <ID>18</ID>
+    <Name>Böszörmenyi</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>19</ID>
+    <Name>Hellwagner</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>20</ID>
+    <Name>Schöffmann</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>21</ID>
+    <Name>Friedrich</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>22</ID>
+    <Name>Franceschetti</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>23</ID>
+    <Name>Jannach</Name>
+  </LEITER>
+  <LEITER>
+    <ID>24</ID>
+    <Name>Pasterk</Name>
+  </LEITER>
+  <LEITER>
+    <ID>25</ID>
+    <Name>Dabringer</Name>
+  </LEITER>
+  <LEITER>
+    <ID>26</ID>
+    <Name>Micheuz</Name>
+  </LEITER>
+  <LEITER>
+    <ID>27</ID>
+    <Name>Wigoutschnigg</Name>
+  </LEITER>
+  <LEITER>
+    <ID>28</ID>
+    <Name>Heuberger</Name>
+  </LEITER>
+  <LEITER>
+    <ID>29</ID>
+    <Name>Fercher</Name>
+  </LEITER>
+  <LEITER>
+    <ID>30</ID>
+    <Name>Macho</Name>
+  </LEITER>
+  <LEITER>
+    <ID>31</ID>
+    <Name>Rass</Name>
+  </LEITER>
+  <LEITER>
+    <ID>32</ID>
+    <Name>Schartner</Name>
+  </LEITER>
+  <LEITER>
+    <ID>33</ID>
+    <Name>Garab</Name>
+  </LEITER>
+  <LEITER>
+    <ID>34</ID>
+    <Name>Pilz</Name>
+  </LEITER>
+  <LEITER>
+    <ID>35</ID>
+    <Name>Teppan</Name>
+  </LEITER>
+  <LEITER>
+    <ID>36</ID>
+    <Name>Primus</Name>
+  </LEITER>
+  <LEITER>
+    <ID>37</ID>
+    <Name>Prodan</Name>
+  </LEITER>
+  <LEITER>
+    <ID>38</ID>
+    <Name>Köpke</Name>
+  </LEITER>
+  <LEITER>
+    <ID>39</ID>
+    <Name>Ciglic</Name>
+  </LEITER>
+  <LEITER>
+    <ID>40</ID>
+    <Name>Antonitsch</Name>
+  </LEITER>
+  <LEITER>
+    <ID>41</ID>
+    <Name>Ransinghe</Name>
+  </LEITER>
+  <LEITER>
+    <ID>42</ID>
+    <Name>Kellermann</Name>
+  </LEITER>
+  <LEITER>
+    <ID>43</ID>
+    <Name>Scherer</Name>
+  </LEITER>
+  <LEITER>
+    <ID>44</ID>
+    <Name>Novak</Name>
+  </LEITER>
+  <LEITER>
+    <ID>45</ID>
+    <Name>Reci</Name>
+  </LEITER>
+  <LEITER>
+    <ID>46</ID>
+    <Name>Callaghan</Name>
+  </LEITER>
+  <LEITER>
+    <ID>47</ID>
+    <Name>Leitner</Name>
+  </LEITER>
+  <LEITER>
+    <ID>48</ID>
+    <Name>Taschwer</Name>
+  </LEITER>
+  <LEITER>
+    <ID>49</ID>
+    <Name>Pichler</Name>
+  </LEITER>
+  <LEITER>
+    <ID>50</ID>
+    <Name>Khan</Name>
+  </LEITER>
+  <LEITER>
+    <ID>51</ID>
+    <Name>Bollin</Name>
+  </LEITER>
+  <LEITER>
+    <ID>52</ID>
+    <Name>Spöck</Name>
+  </LEITER>
+  <LEITER>
+    <ID>53</ID>
+    <Name>Rinner</Name>
+  </LEITER>
+  <LEITER>
+    <ID>54</ID>
+    <Name>Peshkova</Name>
+  </LEITER>
+  <LEITER>
+    <ID>55</ID>
+    <Name>Gebhard</Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>56</ID>
+    <Name></Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>57</ID>
+    <Name></Name>
+  </LEITER>
+
+  <LEITER>
+    <ID>58</ID>
+    <Name></Name>
+  </LEITER>
+
+
 </LVSAMMLUNG>
