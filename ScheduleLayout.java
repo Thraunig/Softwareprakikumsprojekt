@@ -400,8 +400,8 @@ public class ScheduleLayout {
     public static void main(String[] args) {
         //XML inputRead
         ManageXML manageXML = new ManageXML();
-        List<LVLeiter> lvLeiterList = manageXML.getXMLLvLeiter();
-        List<Lehrveranstaltung> lehrveranstaltungList = manageXML.getXMLLehrveranstaltungen();
+        List<LVLeiter> lvLeiterList = manageXML.getXMLLvLeiter(true, null);
+        List<Lehrveranstaltung> lehrveranstaltungList = manageXML.getXMLLehrveranstaltungen(true, null);
 
 
         //Frame start

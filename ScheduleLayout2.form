@@ -1,68 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="at.aau.raunig.ScheduleLayout2">
-  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
-    <rowspec value="fill:700px:noGrow"/>
-    <colspec value="fill:1300px:grow"/>
+  <grid id="27dc6" binding="hauptPanel" layout-manager="FormLayout">
+    <rowspec value="center:25px:noGrow"/>
+    <rowspec value="top:0dlu:noGrow"/>
+    <rowspec value="top:680px:grow(8.6)"/>
+    <colspec value="center:1360px:grow(9.0)"/>
     <constraints>
       <xy x="20" y="20" width="4000" height="2000"/>
     </constraints>
-    <properties/>
+    <properties>
+      <autoscrolls value="true"/>
+      <background color="-657931"/>
+      <foreground color="-1644826"/>
+      <maximumSize width="1920" height="999"/>
+      <minimumSize width="1920" height="999"/>
+      <opaque value="true"/>
+      <preferredSize width="1360" height="700"/>
+    </properties>
     <border type="none"/>
     <children>
-      <scrollpane id="92456">
+      <scrollpane id="92456" binding="ScrollPaneMain">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
           <forms defaultalign-horz="false" defaultalign-vert="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-1644826"/>
+          <focusable value="true"/>
+          <foreground color="-1644826"/>
+          <horizontalScrollBar value=""/>
           <horizontalScrollBarPolicy value="32"/>
+          <maximumSize width="1200" height="650"/>
+          <minimumSize width="1200" height="650"/>
+          <opaque value="false"/>
+          <preferredSize width="1400" height="650"/>
+          <requestFocusEnabled value="false"/>
+          <verticalScrollBar value=""/>
           <verticalScrollBarPolicy value="22"/>
+          <wheelScrollingEnabled value="true"/>
         </properties>
         <border type="none"/>
         <children>
-          <grid id="48a9" layout-manager="FormLayout">
-            <rowspec value="center:d:noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="fill:200px:noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="fill:200px:noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="fill:200px:noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="fill:200px:noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="fill:200px:noGrow"/>
-            <rowspec value="top:4dlu:noGrow"/>
-            <rowspec value="fill:200px:noGrow"/>
-            <colspec value="fill:d:noGrow"/>
+          <grid id="48a9" binding="panel" layout-manager="FormLayout">
+            <rowspec value="center:19px:noGrow"/>
+            <rowspec value="top:0dlu:noGrow"/>
+            <rowspec value="fill:160px:noGrow"/>
+            <rowspec value="top:2dlu:noGrow"/>
+            <rowspec value="fill:160px:noGrow"/>
+            <rowspec value="top:2dlu:noGrow"/>
+            <rowspec value="fill:160px:noGrow"/>
+            <rowspec value="top:2dlu:noGrow"/>
+            <rowspec value="fill:160px:noGrow"/>
+            <rowspec value="top:2dlu:noGrow"/>
+            <rowspec value="fill:160px:noGrow"/>
+            <rowspec value="top:2dlu:noGrow"/>
+            <rowspec value="fill:150px:noGrow"/>
+            <colspec value="fill:35px:noGrow"/>
             <colspec value="left:4dlu:noGrow"/>
             <colspec value="fill:250px:noGrow"/>
+            <colspec value="left:1dlu:noGrow"/>
+            <colspec value="fill:40px:noGrow"/>
             <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:251px:noGrow"/>
+            <colspec value="left:1px:noGrow"/>
             <colspec value="fill:40px:noGrow"/>
             <colspec value="left:4dlu:noGrow"/>
             <colspec value="fill:250px:noGrow"/>
-            <colspec value="left:4px:noGrow"/>
-            <colspec value="fill:40px:noGrow"/>
-            <colspec value="left:4dlu:noGrow"/>
-            <colspec value="fill:250px:noGrow"/>
-            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="left:1dlu:noGrow"/>
             <colspec value="fill:47px:noGrow"/>
             <colspec value="left:4dlu:noGrow"/>
             <colspec value="fill:250px:noGrow"/>
-            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="left:1dlu:noGrow"/>
             <colspec value="fill:40px:noGrow"/>
             <colspec value="left:4dlu:noGrow"/>
             <colspec value="fill:250px:noGrow"/>
-            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="left:1dlu:noGrow"/>
             <colspec value="fill:40px:noGrow"/>
             <constraints/>
-            <properties/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-16382458"/>
+              <foreground color="-1644826"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="1570" height="1000"/>
+              <minimumSize width="1570" height="1000"/>
+              <opaque value="false"/>
+              <preferredSize width="1570" height="1000"/>
+            </properties>
             <border type="none"/>
             <children>
-              <component id="1471" class="javax.swing.JLabel">
+              <component id="1471" class="javax.swing.JLabel" binding="labelZeit">
                 <constraints>
-                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
                 </constraints>
                 <properties>
                   <text value="Zeit"/>
@@ -122,19 +153,10 @@
                   <text value="18-20"/>
                 </properties>
               </component>
-              <component id="d1eef" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="0" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
-                </constraints>
-                <properties>
-                  <text value="Montag"/>
-                </properties>
-              </component>
               <component id="544b9" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="0" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
+                  <grid row="0" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
                 </constraints>
                 <properties>
                   <text value="Donnerstag"/>
@@ -142,8 +164,8 @@
               </component>
               <component id="177dc" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="0" column="18" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
+                  <grid row="0" column="18" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
                 </constraints>
                 <properties>
                   <text value="Freitag"/>
@@ -151,8 +173,8 @@
               </component>
               <component id="c459b" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="0" column="6" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
+                  <grid row="0" column="6" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
                 </constraints>
                 <properties>
                   <text value="Dienstag"/>
@@ -175,7 +197,13 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -199,7 +227,9 @@
                     <children>
                       <component id="770df" class="javax.swing.JList" binding="listM8">
                         <constraints/>
-                        <properties/>
+                        <properties>
+                          <font name="Arial" size="9"/>
+                        </properties>
                       </component>
                     </children>
                   </scrollpane>
@@ -251,7 +281,9 @@
                     <children>
                       <component id="95bb2" class="javax.swing.JList" binding="listM12">
                         <constraints/>
-                        <properties/>
+                        <properties>
+                          <layoutOrientation value="1"/>
+                        </properties>
                       </component>
                     </children>
                   </scrollpane>
@@ -355,7 +387,9 @@
                     <children>
                       <component id="5bb9b" class="javax.swing.JList" binding="listD8">
                         <constraints/>
-                        <properties/>
+                        <properties>
+                          <font name="Arial" size="10"/>
+                        </properties>
                       </component>
                     </children>
                   </scrollpane>
@@ -511,7 +545,9 @@
                     <children>
                       <component id="e63b1" class="javax.swing.JList" binding="listDO8">
                         <constraints/>
-                        <properties/>
+                        <properties>
+                          <font name="Arial" size="11" style="0"/>
+                        </properties>
                       </component>
                     </children>
                   </scrollpane>
@@ -820,13 +856,24 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <focusable value="false"/>
+                      <font name="Arial" size="9"/>
+                      <inheritsPopupMenu value="false"/>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS 3"/>
+                        <item value="HS 1"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
               <grid id="849b8" layout-manager="FormLayout">
                 <rowspec value="center:d:grow"/>
-                <colspec value="fill:d:grow"/>
+                <colspec value="fill:40px:noGrow"/>
                 <constraints>
                   <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                   <forms/>
@@ -841,7 +888,16 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS 2"/>
+                        <item value="V.1.03"/>
+                        <item value="E.1.43"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -862,7 +918,15 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.69"/>
+                        <item value="E.2.42"/>
+                        <item value="HS 1"/>
+                        <item value="HS C"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -883,7 +947,16 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS C"/>
+                        <item value="I.0.44"/>
+                        <item value="E.1.44"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -904,7 +977,18 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="V.1.08"/>
+                        <item value="V.1.07"/>
+                        <item value="E.1.44"/>
+                        <item value="E.1.60"/>
+                        <item value="L.1.014"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -925,7 +1009,14 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="L.1.0.14"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -946,7 +1037,16 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS 3"/>
+                        <item value="HS 1"/>
+                        <item value="HS 3"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -967,7 +1067,15 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="I.0.07"/>
+                        <item value="L1.0.14"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -988,7 +1096,16 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS C"/>
+                        <item value="I.1.71"/>
+                        <item value="V.1.08"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1009,7 +1126,17 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS 7"/>
+                        <item value="HS C"/>
+                        <item value="M.0.22"/>
+                        <item value="E.1.45"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1030,14 +1157,21 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="L.1.0.14"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
               <component id="54b81" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                  <forms/>
+                  <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
                 </constraints>
                 <properties>
                   <text value="Mittwoch"/>
@@ -1063,7 +1197,9 @@
                     <children>
                       <component id="e99de" class="javax.swing.JList" binding="listMI8">
                         <constraints/>
-                        <properties/>
+                        <properties>
+                          <font name="Arial" size="12" style="0"/>
+                        </properties>
                       </component>
                     </children>
                   </scrollpane>
@@ -1218,7 +1354,11 @@
                     </constraints>
                     <properties>
                       <model>
-                        <item value="HSA"/>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS 3"/>
+                        <item value="HS 11"/>
                       </model>
                     </properties>
                   </component>
@@ -1243,7 +1383,13 @@
                     </constraints>
                     <properties>
                       <model>
-                        <item value="E 1.42"/>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS 2"/>
+                        <item value="HS C"/>
+                        <item value="L.4.1.02"/>
+                        <item value="HS 1"/>
                       </model>
                     </properties>
                   </component>
@@ -1268,7 +1414,13 @@
                     </constraints>
                     <properties>
                       <model>
-                        <item value="HS C"/>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS 2"/>
+                        <item value="I.0.43"/>
+                        <item value="HS 3"/>
+                        <item value="HS 3"/>
                       </model>
                     </properties>
                   </component>
@@ -1291,7 +1443,17 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS 2"/>
+                        <item value="I.0.44"/>
+                        <item value="L.1.0.14"/>
+                        <item value="I.0.56"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1312,7 +1474,15 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.69"/>
+                        <item value="E.2.42"/>
+                        <item value="M.022"/>
+                        <item value="I.0.44"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1333,7 +1503,13 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1354,7 +1530,13 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.69"/>
+                        <item value="E.2.42"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1375,7 +1557,14 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS 1"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1396,7 +1585,14 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="HS C"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1417,7 +1613,13 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1438,7 +1640,13 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1459,7 +1667,18 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="I.1.42"/>
+                        <item value="L.1.0.14"/>
+                        <item value="I.2.01"/>
+                        <item value="HS 3"/>
+                        <item value="L.4.1.01"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1482,7 +1701,12 @@
                     </constraints>
                     <properties>
                       <model>
-                        <item value="E 2.12"/>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="L.1.0.14"/>
+                        <item value="I.1.04"/>
+                        <item value="HS C"/>
                       </model>
                     </properties>
                   </component>
@@ -1505,7 +1729,17 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.69"/>
+                        <item value="E.2.42"/>
+                        <item value="I.2.57"/>
+                        <item value="V.1.07"/>
+                        <item value="HS 1"/>
+                        <item value="L.4.1.01"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1526,7 +1760,16 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="I.0.43"/>
+                        <item value=""/>
+                        <item value="HS C"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1549,7 +1792,12 @@
                     </constraints>
                     <properties>
                       <model>
-                        <item value="HS 10"/>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="E 2.80"/>
+                        <item value="L.1.014"/>
+                        <item value="I.2.01"/>
                       </model>
                     </properties>
                   </component>
@@ -1572,7 +1820,13 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.69"/>
+                        <item value="E.2.42"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
@@ -1593,14 +1847,165 @@
                       </grid>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties/>
+                    <properties>
+                      <enabled value="true"/>
+                      <font name="Arial" size="10"/>
+                      <model>
+                        <item value="E.1.42"/>
+                        <item value="E.2.42"/>
+                        <item value="E.2.69"/>
+                        <item value="L1.0.14"/>
+                        <item value="HS 2"/>
+                      </model>
+                    </properties>
                   </component>
                 </children>
               </grid>
+              <component id="d1eef" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <text value="Montag"/>
+                </properties>
+              </component>
             </children>
           </grid>
         </children>
       </scrollpane>
+      <toolbar id="ce0ff" binding="kopfToolbar">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="424" class="javax.swing.JButton" binding="neuButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="Neu"/>
+            </properties>
+          </component>
+          <component id="1ec29" class="javax.swing.JButton" binding="bearbeitenButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="Bearbeiten"/>
+            </properties>
+          </component>
+          <component id="aebf2" class="javax.swing.JButton" binding="importBasisXMLButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <opaque value="true"/>
+              <text value="Import Basis XML"/>
+            </properties>
+          </component>
+          <component id="e75a6" class="javax.swing.JButton" binding="exportInXMLButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="Export in XML"/>
+            </properties>
+          </component>
+          <component id="8d57d" class="javax.swing.JButton" binding="importNeuesXMLButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="Import Neues XML"/>
+            </properties>
+          </component>
+          <component id="5b6ad" class="javax.swing.JButton" binding="farbenZurücksetzenButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="Farben Zurücksetzen"/>
+            </properties>
+          </component>
+          <component id="4167d" class="javax.swing.JButton" binding="zeigeLVLeiterlisteButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="LV Leiterliste"/>
+            </properties>
+          </component>
+          <component id="89da0" class="javax.swing.JButton" binding="zeigeLVListeButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="LV Liste"/>
+            </properties>
+          </component>
+          <component id="adc6" class="javax.swing.JButton" binding="ausblendenDerNummernButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="Ausblenden der Nummern"/>
+            </properties>
+          </component>
+          <component id="acfe1" class="javax.swing.JButton" binding="ausblendenDerNamenButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="Nur Leitername einblenden"/>
+            </properties>
+          </component>
+          <component id="a72c2" class="javax.swing.JButton" binding="probierenButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-1842205"/>
+              <borderPainted value="true"/>
+              <text value="Check"/>
+            </properties>
+          </component>
+          <component id="92258" class="javax.swing.JButton" binding="infoButton">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <foreground color="-15663097"/>
+              <text value="Info Constraints"/>
+            </properties>
+          </component>
+          <component id="d6a5d" class="javax.swing.JButton" binding="filterButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="Filter"/>
+            </properties>
+          </component>
+          <component id="3ef16" class="javax.swing.JButton" binding="slotVorschlägeButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1842205"/>
+              <text value="Slot Vorschläge"/>
+            </properties>
+          </component>
+          <component id="c4d92" class="javax.swing.JButton" binding="extrasButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Extras"/>
+            </properties>
+          </component>
+          <component id="aa876" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-65528"/>
+              <foreground color="-16382458"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <maximumSize width="200" height="28"/>
+              <minimumSize width="200" height="28"/>
+              <text value="Exit"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
     </children>
   </grid>
 </form>

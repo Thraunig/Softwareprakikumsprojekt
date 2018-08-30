@@ -5,36 +5,25 @@
 package at.aau.raunig;
 
 
+
 import java.io.*;
 import java.awt.datatransfer.*;
 import javax.swing.*;
 
-class ListTransferHandler extends TransferHandler {
-
-    //Von mir:
-    Lehrveranstaltung.Slot neuerSlot;
-    Lehrveranstaltung.Slot alterSlot;
-    String itemInhalt;
+class LVTransferHandler extends TransferHandler {
 
 
     public boolean importData(TransferHandler.TransferSupport info) {
-        String data = null;
+        Lehrveranstaltung data = null;
         if (!canImport(info)) {
             return false;
         }
 
-        JList list = (JList) info.getComponent();
-
-        //Von Mir:
-
-        //System.out.println("Neuer Slot:");
-        neuerSlot = translateSlot(list);
-
-
-        DefaultListModel model = (DefaultListModel) list.getModel();
+        JList list = (JList)info.getComponent();
+        DefaultListModel model = (DefaultListModel)list.getModel();
         //Fetch the data -- bail if this fails
         try {
-            data = (String) info.getTransferable().getTransferData(DataFlavor.stringFlavor);
+            data = (Lehrveranstaltung) info.getTransferable().getTransferData(DataFlavor.stringFlavor);
         } catch (UnsupportedFlavorException ufe) {
             System.out.println("importData: unsupported data flavor");
             return false;
@@ -43,16 +32,8 @@ class ListTransferHandler extends TransferHandler {
             return false;
         }
 
-        //Da wird es interessant
-
-        //Von mir:
-        itemInhalt = data;
-
         if (info.isDrop()) { //This is a drop
-
-            JList.DropLocation dl = (JList.DropLocation) info.getDropLocation();
-
-
+            JList.DropLocation dl = (JList.DropLocation)info.getDropLocation();
             int index = dl.getIndex();
             if (dl.isInsert()) {
                 model.add(index, data);
@@ -66,7 +47,7 @@ class ListTransferHandler extends TransferHandler {
             // if there is a valid selection,
             // insert data after the selection
             if (index >= 0) {
-                model.add(list.getSelectedIndex() + 1, data);
+                model.add(list.getSelectedIndex()+1, data);
                 // else append to the end of the list
             } else {
                 model.addElement(data);
@@ -79,11 +60,12 @@ class ListTransferHandler extends TransferHandler {
      * Bundle up the data for export.
      */
     protected Transferable createTransferable(JComponent c) {
-        JList list = (JList) c;
+        JList list = (JList)c;
         int index = list.getSelectedIndex();
-        String value = (String) list.getSelectedValue();
-        return new StringSelection(value);
+        Lehrveranstaltung value = (Lehrveranstaltung) list.getSelectedValue();
 
+        // TO DO: LV Sele
+        return new StringSelection("Blablabla");
     }
 
     /**
@@ -101,20 +83,10 @@ class ListTransferHandler extends TransferHandler {
         if (action != MOVE) {
             return;
         }
-        JList list = (JList) c;
-
-        //Von mir:
-        //System.out.println("Alter Slot:");
-        alterSlot = translateSlot(list);
-
-        DefaultListModel model = (DefaultListModel) list.getModel();
+        JList list = (JList)c;
+        DefaultListModel model = (DefaultListModel)list.getModel();
         int index = list.getSelectedIndex();
         model.remove(index);
-
-        //Von mir:
-        //System.out.println("Hashcode gesucht:" +  itemInhalt.hashCode() + alterSlot.hashCode());
-        ScheduleLayout2.stundenPlan.moveLV(itemInhalt.hashCode() + alterSlot.hashCode(), neuerSlot);
-
     }
 
     /**
@@ -127,21 +99,4 @@ class ListTransferHandler extends TransferHandler {
         }
         return true;
     }
-
-
-    /*
-    Slot Translator
-    Input: JList
-    Output Slot der jList
-     */
-    public static Lehrveranstaltung.Slot translateSlot(JList list) {
-        Lehrveranstaltung.Slot translatedSlot = null;
-
-        String jListName = list.getName();
-        //System.out.println(jListName);
-        translatedSlot = Lehrveranstaltung.Slot.valueOf(jListName);
-        return translatedSlot;
-    }
-
-
 }
